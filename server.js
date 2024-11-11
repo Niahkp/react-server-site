@@ -156,7 +156,7 @@ app.get("/",(req,res)=>{
     res.sendFile(__dirname + "/index.html");
 });
 
-app.get("/api/house_plans", (req,res)=>{
+app.get("/api/lunch_menu", (req,res)=>{
     res.json(lunchMenu);
 });
 
